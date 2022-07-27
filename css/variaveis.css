@@ -1,0 +1,8 @@
+/* VARIÁVEIS DE ESTILO DO PROJETO */
+
+:root {
+    --color-primary: rgb(24, 146, 0);
+    --color-secundary: rgb(175, 17, 17);
+    --color-tertiary: black;
+    --spacing: 10px;
+}
