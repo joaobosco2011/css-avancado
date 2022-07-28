@@ -1,4 +1,4 @@
 /* IMPORTAÇÃO DOS ARQUIVOS DE ESTILO DO PROJETO */
 
-@import 'variaveis.css';
-@import 'comuns.css';
+@import 'variaveis.css'; /* VARIÁVEIS DE ESTILO DO PROJETO */
+@import 'comuns.css'; /* CONFIGURAÇÕES COMUNS DO PROJETO */
