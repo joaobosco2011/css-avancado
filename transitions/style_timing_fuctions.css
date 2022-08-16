@@ -1,9 +1,16 @@
-.box_linear, 
-.box_ease_out, 
-.box_ease_in,
-.box_ease_in_out {
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50vw;
+    height: 100vh;
+}
+/* PROPRIEDADES COMUNS DAS DIV's */
+.box {
     width: 300px;
-    height: 300px;
+    height: 25%;
     text-align: center;
     line-height: 300px;
     color: white;
@@ -12,34 +19,28 @@
     transition: 500ms;
 }
 
-.box_linear:hover,
-.box_ease_in:hover,
-.box_ease_out:hover,
-.box_ease_in_out:hover {
+/* PROPRIEDADES DO HOVER */
+.container:hover .box {
     width: 500px;
 }
 
-
-/* BOX LINEAR */
-.box_linear {
+/* PROPRIEADES ESPECÍFICAS DE CADA DIV */
+.linear {
     background-color: #02C5BE;
     transition-timing-function: linear;
 }
 
-/* BOX EASE IN */
-.box_ease_in {
+.ease_in {
     background-color: #20D1CC;
     transition-timing-function: ease-in;
 }
 
-/* BOX EASE OUT */
-.box_ease_out {
+.ease_out {
     background-color: #87D1D7;
     transition-timing-function: ease-out;
 }
 
-/* BOX EASE IN OUT */
-.box_ease_in_out {
+.ease_in_out {
     background-color: #75ACA8;
     animation-timing-function: ease-in-out;
 }
